@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/' then
+get '/' do
   "Hello Travis"
 end
